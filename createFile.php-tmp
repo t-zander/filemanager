@@ -1,0 +1,8 @@
+<?php
+
+include_once 'func/functions.php';
+$fileName = $_GET['fileName'];
+
+createFile($fileName);
+
+/*createFile($fileName);*/

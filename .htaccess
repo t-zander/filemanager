@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+
+# Options All -Indexes
+
+# RewriteEngine on
+# RewriteBase /
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+DirectoryIndex main.php
+
+# Redirect /changenametest/ http://managerfunc.local/main.php

@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style-type: none;
+  margin: 0;
+  width: initial;
+}
+h1,h2,h3,h4,h5,h6{
+  color: black;
+}
+header{
+  flex: 0 0 auto;
+  padding: 0 5%;
+  background-color: rgba(0,0,0,0.8);
+}
+header ul{
+  margin: 0;
+  padding: 0 0 20px;
+}
+span{
+  padding-right: 5px;
+}
+header ul li:nth-child(1){
+  padding-right: 40px;
+}
+header ul li{
+  display: inline-block;
+}
+.header-text{
+  margin: 0;
+  font-size: 22px;
+  color: #139d6f;
+  padding: 5px 0;
+}
+a.header-text:hover{
+  color: #17ca8b;
+}
+.listing{
+  flex: 1 0 auto;
+  padding: 0 2%;
+}
+.content{
+  padding: 0 2%;
+}
+.file-content{
+  flex: 1 0 auto;
+  padding: 0 2%;
+}
+a{
+  font-size: 34px;
+  color: #090551;
+}
+a:hover{
+  color: #2007ff;
+}
+.navigation{
+  background-color: #2007ff;
+  width: 100%;
+  font-size: 20px;
+}
+.navigation:nth-child(2){
+  padding: 20px;
+}
+
+.text{
+  width: 100%;
+  text-align: center;
+}
+.editingFile{
+  width: 70%;
+}
+.content{
+  width: 80%;
+  text-align: center;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+}
+.listing li{
+  float: left;
+  clear: left;
+}
+/*меню для создания и загрузки файлов*/
+.menu{
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.8);
+}
+  .menu li{
+    padding: 5px 5px;
+    font-size: 30px;
+    color: #139d6f;
+  }
+  .menu li:hover{
+    color: #17ca8b;
+    cursor: pointer;
+  }
+/*меню для переименования удления файлов*/
+.popUpDiv{
+  position: absolute;
+  float:left;
+  clear:left;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+}
+  .popUpDiv h3{
+    color: #139d6f;
+  }
+  .popUpButton{
+    font-size: 14px;
+    background-color: #139d6f;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .popUpButton:nth-child(1){
+    padding: 100px;
+  }
+    .popUpButton:hover{
+      background-color: #17ca8b;
+    }
+  .popUpInput{
+    display: inline-block; 
+    width: 90%; 
+    height: 25px;
+    border: 2px solid #139d6f;
+    border-radius: 5px;
+  }
+    .popUpInput:hover{
+      border-color: #17ca8b;
+    }
+  .popUpInputError{
+    border: 2px solid #ff0000;
+  }
